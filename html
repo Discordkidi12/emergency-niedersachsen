@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Niedersachsen - Roblox Spiel</title>
+    <style>
+        /* Globale Stile */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Header */
+        header {
+            background-color: #212121;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+
+        /* Abschnitte */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+        }
+
+        .background-dark {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #212121;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 1rem;
+            margin-top: 40px;
+        }
+
+        /* Responsives Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                padding: 20px 0;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            section {
+                padding: 40px 20px;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        }
+
+        /* Entbannungsformular */
+        .unban-form {
+            margin-top: 40px;
+            display: none;
+        }
+
+        .unban-form input, .unban-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .unban-form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .unban-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Emergency Niedersachsen</h1>
+            <nav>
+                <ul>
+                    <li><a href="#overview">Übersicht</a></li>
+                    <li><a href="#gameplay">Gameplay</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#download">Jetzt spielen</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Übersicht Abschnitt -->
+    <section id="overview">
+        <div class="container">
+            <h2>Was ist Emergency Niedersachsen?</h2>
+            <p>Emergency Niedersachsen ist ein spannendes und realistisches Roblox-Spiel, bei dem du in die Rolle von Polizei, Feuerwehr, Rettungsdiensten und weiteren Einsatzkräften schlüpfst. Setze dein Wissen und deine Fähigkeiten ein, um Notfälle in der Region Niedersachsen zu meistern.</p>
+        </div>
+    </section>
+
+    <!-- Gameplay Abschnitt -->
+    <section id="gameplay" class="background-dark">
+        <div class="container">
+            <h2>Gameplay</h2>
+            <p>Erlebe spannende Einsätze, steuere verschiedene Rettungsfahrzeuge und meistere herausfordernde Aufgaben in einer offenen Welt. Tritt mit anderen Spielern in Kontakt und rette Leben!</p>
+            <img src="https://media.discordapp.net/attachments/1296129742260539453/1348700103447281717/file-Bj8TYkt36TAecZr7cx1tLN.webp?ex=67d8535a&is=67d701da&hm=5430d66259f6a01cc1b2a0fa0f13e4df28a9ead82b620110b45b4607107f7c54&=&format=webp&width=824&height=824" alt="Gameplay Screenshot">
+        </div>
+    </section>
+
+    <!-- Community Abschnitt -->
+    <section id="community">
+        <div class="container">
+            <h2>Unsere Community</h2>
+            <p>Schließe dich unserer aktiven Community an! Tausche dich mit anderen Spielern aus, teile Tipps und erhalte regelmäßig Updates. Sei Teil von uns!</p>
+            <a href="https://discord.gg/4zS3Tej3S8" class="cta-button">Tritt unserer Discord-Community bei</a>
+        </div>
+    </section>
+
+    <!-- Jetzt spielen Abschnitt -->
+    <section id="download">
+        <div class="container">
+            <h2>Jetzt spielen!</h2>
+            <p>Hol dir das Spiel auf Roblox und starte dein Abenteuer in Emergency Niedersachsen! Klicke unten, um direkt zum Spiel zu gelangen.</p>
+            <a href="https://www.roblox.com/de/games/89096654175292/EN" target="_blank" class="cta-button">Jetzt spielen</a>
+        </div>
+    </section>
+
+    <!-- Entbannungsformular Abschnitt -->
+    <section id="unban">
+        <div class="container">
+            <h2>Entbannung anfordern</h2>
+            <p>Falls du gebannt wurdest und dich entbannen lassen möchtest, klicke auf den folgenden Button:</p>
+            <a href="#" class="cta-button" onclick="showUnbanForm()">Entbannen</a>
+
+            <div class="unban-form" id="unbanForm">
+                <h3>Entbannungsformular</h3>
+                <form id="unbanFormData" onsubmit="sendToDiscord(event)">
+                    <label for="username">Benutzername</label>
+                    <input type="text" id="username" name="username" required placeholder="Gib deinen Roblox-Benutzernamen ein">
+
+                    <label for="email">E-Mail-Adresse</label>
+                    <input type="email" id="email" name="email" required placeholder="Gib deine E-Mail-Adresse ein">
+
+                    <label for="reason">Warum möchtest du entbannt werden?</label>
+                    <textarea id="reason" name="reason" required placeholder="Erkläre den Grund für deine Entbannung" rows="4"></textarea>
+
+                    <button type="submit">Absenden</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Emergency Niedersachsen. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Funktion, um das Entbannungsformular anzuzeigen
+        function showUnbanForm() {
+            document.getElementById('unbanForm').style.display = 'block';
+        }
+
+        // Funktion, um das Formular an Discord zu senden
+        async function sendToDiscord(event) {
+            event.preventDefault(); // Verhindert das normale Absenden des Formulars
+
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const reason = document.getElementById('reason').value;
+
+            const webhookURL = 'https://discord.com/api/webhooks/1348703263763206164/OX0FJ2uhs1QPWI_B1S97Xu7fjFwZZNv_6UXY1_aornUb0npsaC4IFVBsJtW6OH3_PJGi'; // Füge hier deinen Discord-Webhook-Link ein
+
+            const payload = {
+                content: `Entbannungsanfrage von ${username}`,
+                embeds: [
+                    {
+                        title: 'Entbannungsanfrage Details',
+                        fields: [
+                            {
+                                name: 'Benutzername',
+                                value: username,
+                                inline: true
+                            },
+                            {
+                                name: 'E-Mail-Adresse',
+                                value: email,
+                                inline: true
+                            },
+                            {
+                                name: 'Grund für Entbannung',
+                                value: reason,
+                                inline: false
+                            }
+                        ],
+                        color: 5814783 // Du kannst die Farbe hier anpassen
+                    }
+                ]
+            };
+
+            try {
+                const response = await fetch(webhookURL, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                if (response.ok) {
+                    alert('Deine Entbannungsanfrage wurde gesendet!');
+                } else {
+                    alert('Fehler beim Senden der Anfrage. Bitte versuche es später noch einmal.');
+                }
+            } catch (error) {
+                alert('Es gab ein Problem beim Absenden deiner Anfrage.');
+            }
+        }
+    </script>
+
+</body>
+</html>
